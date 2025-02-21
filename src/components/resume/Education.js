@@ -52,6 +52,12 @@ const Education = () => {
             result="2020 - 2023"
             des=""
           />
+          <ResumeCard
+            title="Japanese Language N4 Level"
+            subTitle="Asahi University in Japan"
+            result="2024 - 2025"
+            des=""
+          />
         </div>
       </div>
     </motion.div>
