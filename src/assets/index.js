@@ -7,6 +7,11 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import optical from"./images/projects/Optical.png";
+import add from"./images/projects/add.jpg";
+import queue from"./images/projects/queue.png"
+import quiz from"./images/projects/quiz.jpg"
+import video from"./images/projects/video.png"
 
 export {
   logo,
@@ -18,4 +23,9 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  optical,
+  queue,
+  quiz,
+  video,
+  add
 };

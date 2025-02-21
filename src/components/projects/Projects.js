@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectTwo,add,quiz,queue,video,optical} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -24,7 +24,7 @@ const Projects = () => {
           Technologies - Java, Mysql Database, Jasper Reports (Develop with NetBeans, Mysql work bench &
             TIBCO)
 "
-          src={projectOne}
+          src={optical}
         />
         <ProjectsCard
           title="E-Commerce Android application"
@@ -43,7 +43,7 @@ const Projects = () => {
           Normal User & Seller 
           Technologies - Java Script framework, Express, mysql2 - sequelize, Jsonwebtoken, ENV file handling,
           multer file uploading (Develop with VS code, Mysql work bench, postman, Adobe XD)"
-          src={projectThree}
+          src={add}
         />
         <ProjectsCard
           title="Queue Management System"
@@ -51,7 +51,7 @@ const Projects = () => {
           There are two roles (Normal Users & Counter Users
           Technologies - Express, mysql2 - sequelize, Jsonwebtoken, i18Next, React-i18Next, Axios, @reactnavigation/native, React-native-vector-icons, Push Notification (Develop with VS code, Postman,
           Android Studio)"
-          src={projectThree}
+          src={queue}
         />
         <ProjectsCard
           title="Video Chat Application"
@@ -59,7 +59,7 @@ const Projects = () => {
           other users (can be registered/ not registered, guests) through sending them invite links.
           Technologies- Web application - ReactJs,Backend - NodeJs, Database - MongoDB, Sockets,WebRTC
           Library (Develop with VS code, Postman, Design UI in Adobe XD)"
-          src={projectOne}
+          src={video}
         />
         <ProjectsCard
           title="Quiz Management System"
@@ -68,7 +68,7 @@ const Projects = () => {
           peppers. Student can answer the questions in given time duration. Finally student can check their
           marks and teachers can who was amend to exam and their marks.
           Technologies - Java, Mysql Database, (Develop with NetBeans, Mysql work bench)"
-          src={projectTwo}
+          src={quiz}
         />
       </div>
     </section>
